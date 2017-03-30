@@ -1,5 +1,6 @@
 require_relative 'board'
 require_relative 'tile'
+require 'yaml'
 class Game
   attr_accessor :board, :safe_revealed, :pos, :action
 
@@ -30,8 +31,24 @@ class Game
       get_action
       reveal_pos if @action == 'r'
       flag_pos if @action == 'f'
+      save_game if @action == 's'
+      load_game if @action == 'l'
       win?
     end
+  end
+
+  def save_game
+    saved = File.new("ms-saved", "w+")
+    saved << @board.to_yaml
+    saved.close
+    p "game saved"
+    exit
+  end
+
+  def load_game
+    opened = File.open("ms-saved")
+    @board = YAML::load(opened)
+    p "game loaded"
   end
 
   def get_pos
@@ -40,7 +57,7 @@ class Game
   end
 
   def get_action
-    puts "Please input 'f' for flag or 'r' for reveal"
+    puts "Please input 'f' for flag or 'r' for reveal or 's' for saving the game or 'l' for load"
     @action = gets.chomp
   end
 

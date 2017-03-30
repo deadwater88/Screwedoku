@@ -1,0 +1,3207 @@
+--- !ruby/object:Board
+length: 20
+width: 20
+total_tiles: 400
+bomb_count: 20
+safe_tile_count: 380
+grid:
+- - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 0
+    - 0
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 0
+    - 1
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 0
+    - 2
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 0
+    - 3
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 0
+    - 4
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 0
+    - 5
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 0
+    - 6
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 0
+    - 7
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 0
+    - 8
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 0
+    - 9
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 0
+    - 10
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 0
+    - 11
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 0
+    - 12
+  - !ruby/object:Tile
+    b_status: s
+    face_up: false
+    flag: false
+    neighbor_count: 2
+    pos:
+    - 0
+    - 13
+  - !ruby/object:Tile
+    b_status: b
+    face_up: false
+    flag: false
+    neighbor_count: 2
+    pos:
+    - 0
+    - 14
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 0
+    - 15
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 0
+    - 16
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 0
+    - 17
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 0
+    - 18
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 0
+    - 19
+- - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 1
+    - 0
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 1
+    - 1
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 1
+    - 2
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 1
+    - 3
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 1
+    - 4
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 1
+    - 5
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 1
+    - 6
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 1
+    - 7
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 1
+    - 8
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 1
+    - 9
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 1
+    - 10
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 1
+    - 11
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 1
+    - 12
+  - !ruby/object:Tile
+    b_status: b
+    face_up: false
+    flag: false
+    neighbor_count: 2
+    pos:
+    - 1
+    - 13
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 2
+    pos:
+    - 1
+    - 14
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 1
+    - 15
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 1
+    - 16
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 1
+    - 17
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 1
+    - 18
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 1
+    - 19
+- - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 2
+    - 0
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 2
+    - 1
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 2
+    - 2
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 2
+    - 3
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 2
+    - 4
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 2
+    - 5
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 2
+    - 6
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 2
+    - 7
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 2
+    - 8
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 2
+    - 9
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 2
+    - 10
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 2
+    - 11
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 2
+    - 12
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 2
+    - 13
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 2
+    - 14
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 2
+    - 15
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 2
+    - 16
+  - !ruby/object:Tile
+    b_status: b
+    face_up: false
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 2
+    - 17
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 2
+    - 18
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 2
+    - 19
+- - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 3
+    - 0
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 3
+    - 1
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 3
+    - 2
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 3
+    - 3
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 3
+    - 4
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 3
+    - 5
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 3
+    - 6
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 3
+    - 7
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 3
+    - 8
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 3
+    - 9
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 3
+    - 10
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 3
+    - 11
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 3
+    - 12
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 3
+    - 13
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 3
+    - 14
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 3
+    - 15
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 3
+    - 16
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 3
+    - 17
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 3
+    - 18
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 3
+    - 19
+- - !ruby/object:Tile
+    b_status: s
+    face_up: false
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 4
+    - 0
+  - !ruby/object:Tile
+    b_status: b
+    face_up: false
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 4
+    - 1
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 4
+    - 2
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 4
+    - 3
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 4
+    - 4
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 4
+    - 5
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 4
+    - 6
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 4
+    - 7
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 4
+    - 8
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 4
+    - 9
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 4
+    - 10
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 4
+    - 11
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 4
+    - 12
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 4
+    - 13
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 4
+    - 14
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 4
+    - 15
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 4
+    - 16
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 4
+    - 17
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 4
+    - 18
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 4
+    - 19
+- - !ruby/object:Tile
+    b_status: s
+    face_up: false
+    flag: false
+    neighbor_count: 3
+    pos:
+    - 5
+    - 0
+  - !ruby/object:Tile
+    b_status: s
+    face_up: false
+    flag: false
+    neighbor_count: 3
+    pos:
+    - 5
+    - 1
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 2
+    pos:
+    - 5
+    - 2
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 5
+    - 3
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 5
+    - 4
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 5
+    - 5
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 5
+    - 6
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 5
+    - 7
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 5
+    - 8
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 5
+    - 9
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 5
+    - 10
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 5
+    - 11
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 5
+    - 12
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 5
+    - 13
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 5
+    - 14
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 5
+    - 15
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 5
+    - 16
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 5
+    - 17
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 5
+    - 18
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 5
+    - 19
+- - !ruby/object:Tile
+    b_status: b
+    face_up: false
+    flag: false
+    neighbor_count: 2
+    pos:
+    - 6
+    - 0
+  - !ruby/object:Tile
+    b_status: b
+    face_up: false
+    flag: false
+    neighbor_count: 2
+    pos:
+    - 6
+    - 1
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 6
+    - 2
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 6
+    - 3
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 6
+    - 4
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 6
+    - 5
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 6
+    - 6
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 6
+    - 7
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 6
+    - 8
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 6
+    - 9
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 6
+    - 10
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 6
+    - 11
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 6
+    - 12
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 6
+    - 13
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 6
+    - 14
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 6
+    - 15
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 6
+    - 16
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 6
+    - 17
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 6
+    - 18
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 6
+    - 19
+- - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 2
+    pos:
+    - 7
+    - 0
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 2
+    pos:
+    - 7
+    - 1
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 7
+    - 2
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 7
+    - 3
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 7
+    - 4
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 7
+    - 5
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 7
+    - 6
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 7
+    - 7
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 7
+    - 8
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 7
+    - 9
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 7
+    - 10
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 7
+    - 11
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 7
+    - 12
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 7
+    - 13
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 7
+    - 14
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 7
+    - 15
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 7
+    - 16
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 7
+    - 17
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 7
+    - 18
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 7
+    - 19
+- - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 8
+    - 0
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 8
+    - 1
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 8
+    - 2
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 8
+    - 3
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 8
+    - 4
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 8
+    - 5
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 8
+    - 6
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 8
+    - 7
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 8
+    - 8
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 8
+    - 9
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 8
+    - 10
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 8
+    - 11
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 8
+    - 12
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 8
+    - 13
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 8
+    - 14
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 8
+    - 15
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 8
+    - 16
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 8
+    - 17
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 8
+    - 18
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 8
+    - 19
+- - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 9
+    - 0
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 9
+    - 1
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 9
+    - 2
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 9
+    - 3
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 9
+    - 4
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 9
+    - 5
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 9
+    - 6
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 9
+    - 7
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 9
+    - 8
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 9
+    - 9
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 9
+    - 10
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 9
+    - 11
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 9
+    - 12
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 9
+    - 13
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 9
+    - 14
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 9
+    - 15
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 9
+    - 16
+  - !ruby/object:Tile
+    b_status: b
+    face_up: false
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 9
+    - 17
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 9
+    - 18
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 9
+    - 19
+- - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 10
+    - 0
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 10
+    - 1
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 10
+    - 2
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 10
+    - 3
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 10
+    - 4
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 10
+    - 5
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 10
+    - 6
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 10
+    - 7
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 10
+    - 8
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 10
+    - 9
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 10
+    - 10
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 10
+    - 11
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 10
+    - 12
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 10
+    - 13
+  - !ruby/object:Tile
+    b_status: b
+    face_up: false
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 10
+    - 14
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 10
+    - 15
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 10
+    - 16
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 10
+    - 17
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 2
+    pos:
+    - 10
+    - 18
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 10
+    - 19
+- - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 11
+    - 0
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 11
+    - 1
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 11
+    - 2
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 11
+    - 3
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 11
+    - 4
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 11
+    - 5
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 2
+    pos:
+    - 11
+    - 6
+  - !ruby/object:Tile
+    b_status: b
+    face_up: false
+    flag: false
+    neighbor_count: 2
+    pos:
+    - 11
+    - 7
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 2
+    pos:
+    - 11
+    - 8
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 11
+    - 9
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 11
+    - 10
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 11
+    - 11
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 11
+    - 12
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 11
+    - 13
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 11
+    - 14
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 11
+    - 15
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 11
+    - 16
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 11
+    - 17
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 11
+    - 18
+  - !ruby/object:Tile
+    b_status: b
+    face_up: false
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 11
+    - 19
+- - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 12
+    - 0
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 12
+    - 1
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 12
+    - 2
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 12
+    - 3
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 12
+    - 4
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 12
+    - 5
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 2
+    pos:
+    - 12
+    - 6
+  - !ruby/object:Tile
+    b_status: b
+    face_up: false
+    flag: false
+    neighbor_count: 2
+    pos:
+    - 12
+    - 7
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 2
+    pos:
+    - 12
+    - 8
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 12
+    - 9
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 12
+    - 10
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 12
+    - 11
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 12
+    - 12
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 12
+    - 13
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 12
+    - 14
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 12
+    - 15
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 12
+    - 16
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 12
+    - 17
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 2
+    pos:
+    - 12
+    - 18
+  - !ruby/object:Tile
+    b_status: s
+    face_up: false
+    flag: false
+    neighbor_count: 2
+    pos:
+    - 12
+    - 19
+- - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 13
+    - 0
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 13
+    - 1
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 13
+    - 2
+  - !ruby/object:Tile
+    b_status: b
+    face_up: false
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 13
+    - 3
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 2
+    pos:
+    - 13
+    - 4
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 13
+    - 5
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 2
+    pos:
+    - 13
+    - 6
+  - !ruby/object:Tile
+    b_status: s
+    face_up: false
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 13
+    - 7
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 13
+    - 8
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 13
+    - 9
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 13
+    - 10
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 13
+    - 11
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 13
+    - 12
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 13
+    - 13
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 13
+    - 14
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 13
+    - 15
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 13
+    - 16
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 13
+    - 17
+  - !ruby/object:Tile
+    b_status: b
+    face_up: false
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 13
+    - 18
+  - !ruby/object:Tile
+    b_status: s
+    face_up: false
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 13
+    - 19
+- - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 14
+    - 0
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 14
+    - 1
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 14
+    - 2
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 14
+    - 3
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 2
+    pos:
+    - 14
+    - 4
+  - !ruby/object:Tile
+    b_status: b
+    face_up: false
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 14
+    - 5
+  - !ruby/object:Tile
+    b_status: s
+    face_up: false
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 14
+    - 6
+  - !ruby/object:Tile
+    b_status: s
+    face_up: false
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 14
+    - 7
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 14
+    - 8
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 14
+    - 9
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 14
+    - 10
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 14
+    - 11
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 14
+    - 12
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 14
+    - 13
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 14
+    - 14
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 14
+    - 15
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 14
+    - 16
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 14
+    - 17
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 14
+    - 18
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 14
+    - 19
+- - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 15
+    - 0
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 15
+    - 1
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 15
+    - 2
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 15
+    - 3
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 15
+    - 4
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 15
+    - 5
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 15
+    - 6
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 15
+    - 7
+  - !ruby/object:Tile
+    b_status: b
+    face_up: false
+    flag: false
+    neighbor_count: 2
+    pos:
+    - 15
+    - 8
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 2
+    pos:
+    - 15
+    - 9
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 15
+    - 10
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 15
+    - 11
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 15
+    - 12
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 15
+    - 13
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 15
+    - 14
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 15
+    - 15
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 15
+    - 16
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 15
+    - 17
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 15
+    - 18
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 15
+    - 19
+- - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 16
+    - 0
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 16
+    - 1
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 16
+    - 2
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 16
+    - 3
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 16
+    - 4
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 16
+    - 5
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 16
+    - 6
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 16
+    - 7
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 2
+    pos:
+    - 16
+    - 8
+  - !ruby/object:Tile
+    b_status: b
+    face_up: false
+    flag: false
+    neighbor_count: 2
+    pos:
+    - 16
+    - 9
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 16
+    - 10
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 16
+    - 11
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 16
+    - 12
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 16
+    - 13
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 16
+    - 14
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 16
+    - 15
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 16
+    - 16
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 16
+    - 17
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 16
+    - 18
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 16
+    - 19
+- - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 17
+    - 0
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 17
+    - 1
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 17
+    - 2
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 17
+    - 3
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 17
+    - 4
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 17
+    - 5
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 17
+    - 6
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 17
+    - 7
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 17
+    - 8
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 17
+    - 9
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 17
+    - 10
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 17
+    - 11
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 17
+    - 12
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 17
+    - 13
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 17
+    - 14
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 17
+    - 15
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 17
+    - 16
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 17
+    - 17
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 17
+    - 18
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 17
+    - 19
+- - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 18
+    - 0
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 18
+    - 1
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 18
+    - 2
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 18
+    - 3
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 2
+    pos:
+    - 18
+    - 4
+  - !ruby/object:Tile
+    b_status: b
+    face_up: false
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 18
+    - 5
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 18
+    - 6
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 18
+    - 7
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 18
+    - 8
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 18
+    - 9
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 18
+    - 10
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 18
+    - 11
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 18
+    - 12
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 18
+    - 13
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 18
+    - 14
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 18
+    - 15
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 2
+    pos:
+    - 18
+    - 16
+  - !ruby/object:Tile
+    b_status: b
+    face_up: false
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 18
+    - 17
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 18
+    - 18
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 18
+    - 19
+- - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 19
+    - 0
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 19
+    - 1
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 19
+    - 2
+  - !ruby/object:Tile
+    b_status: b
+    face_up: false
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 19
+    - 3
+  - !ruby/object:Tile
+    b_status: s
+    face_up: false
+    flag: false
+    neighbor_count: 2
+    pos:
+    - 19
+    - 4
+  - !ruby/object:Tile
+    b_status: s
+    face_up: false
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 19
+    - 5
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 19
+    - 6
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 19
+    - 7
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 19
+    - 8
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 19
+    - 9
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 19
+    - 10
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 19
+    - 11
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 19
+    - 12
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 19
+    - 13
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 19
+    - 14
+  - !ruby/object:Tile
+    b_status: b
+    face_up: false
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 19
+    - 15
+  - !ruby/object:Tile
+    b_status: s
+    face_up: false
+    flag: false
+    neighbor_count: 2
+    pos:
+    - 19
+    - 16
+  - !ruby/object:Tile
+    b_status: s
+    face_up: false
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 19
+    - 17
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 1
+    pos:
+    - 19
+    - 18
+  - !ruby/object:Tile
+    b_status: s
+    face_up: true
+    flag: false
+    neighbor_count: 0
+    pos:
+    - 19
+    - 19
